@@ -11,6 +11,7 @@ import { AluOperations } from "@/components/AluOperations";
 import { MemoryOrganization } from "@/components/MemoryOrganization";
 import { IOOrganization } from "@/components/IOOrganization";
 import { BusStructure } from "@/components/BusStructure";
+import CACalculator from "@/components/CACalculator";
 import { AssemblySimulator } from "@/components/AssemblySimulator";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -46,7 +47,8 @@ const navItems = [
   { id: "memory", label: "Memory Organization", icon: HardDrive },
   { id: "io", label: "I/O Organization", icon: Server },
   { id: "bus", label: "Bus Structure", icon: Server },
-  { id: "assembly", label: "Assembly Simulator", icon: Cpu }
+  { id: "assembly", label: "Assembly Simulator", icon: Cpu },
+  { id: "calcu", label: "CAO Calculator", icon: Calculator}
 ];
 
 // Logo component
@@ -135,6 +137,8 @@ const Index = () => {
         return <BusStructure />;
       case "assembly":
         return <AssemblySimulator />;
+      case "calcu":
+        return <CACalculator />;
       case "logic":
       default:
         return <LogicGateSimulator />;
