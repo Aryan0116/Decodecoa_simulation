@@ -755,11 +755,11 @@ const CACalculator = () => {
         </div>
 
         {/* Footer */}
-        <div className="text-center mt-8 text-slate-400">
+        {/* <div className="text-center mt-8 text-slate-400">
           <p className="text-sm">
             Built for Computer Architecture Students • Interactive Learning Tool
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
