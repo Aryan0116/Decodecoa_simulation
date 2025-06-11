@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
+# Decode COA Simulator
 
-## Project info
+## 📚 Project Overview
 
-**URL**: https://lovable.dev/projects/320190e7-2904-49e5-9ba4-26890d6b0096
+**Decode COA Simulator** is an interactive web-based educational platform designed to help students and professionals understand Computer Organization and Architecture (COA) concepts through hands-on simulations and calculators. The platform provides visual, interactive learning experiences for complex COA topics.
 
-## How can I edit this code?
+## 🎯 Purpose
 
-There are several ways of editing your application.
+This simulator serves as a comprehensive learning tool for:
+- Computer Science students studying Computer Organization and Architecture
+- Educators teaching COA concepts
+- Professionals looking to refresh their understanding of computer systems
+- Anyone interested in learning how computers work at the hardware level
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/320190e7-2904-49e5-9ba4-26890d6b0096) and start prompting.
+### Interactive Simulations & Calculators
 
-Changes made via Lovable will be committed automatically to this repo.
+The platform includes the following modules:
 
-**Use your preferred IDE**
+1. **Logic Gate Simulator** - Interactive logic gate operations and circuit design
+2. **Pipeline Visualizer** - CPU instruction pipeline visualization
+3. **Number Converter** - Convert between different number systems (Binary, Octal, Decimal, Hexadecimal)
+4. **CPU Components** - Explore internal CPU architecture and components
+5. **Computer Organization** - Understand overall computer system organization
+6. **Number Systems** - Learn and practice different number system operations
+7. **Processor Architecture** - Detailed processor design and functionality
+8. **Timing Control** - Clock cycles and timing diagram simulations
+9. **ALU Operations** - Arithmetic Logic Unit operation simulations
+10. **Memory Organization** - Memory hierarchy and management concepts
+11. **I/O Organization** - Input/Output system operations
+12. **Bus Structure** - System bus architecture and data transfer
+13. **Assembly Simulator** - Practice assembly language programming
+14. **CA Calculator** - Computer Architecture calculation tools
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend Framework**: React with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn-ui
+- **Development**: Node.js & npm
 
-Follow these steps:
+## 🌐 Live Demo
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Main Website**: [Decode COA](https://aryan0116.github.io/DECODE-CO-A/)
+- **Simulation Platform**: [Decode COA Simulator](https://decodecoa-simulation.vercel.app/)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📝 Usage
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. **Select a Module**: Choose from the available COA topics in the navigation
+2. **Interactive Learning**: Each module provides hands-on simulations and calculations
+3. **Experiment**: Modify parameters and observe real-time changes
+4. **Learn**: Use the visual feedback to understand complex concepts
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🎓 Educational Benefits
 
-**Edit a file directly in GitHub**
+- **Visual Learning**: Complex concepts are presented through interactive visualizations
+- **Hands-on Experience**: Practice with real simulations rather than just theory
+- **Immediate Feedback**: See results instantly as you modify parameters
+- **Comprehensive Coverage**: All major COA topics in one platform
+- **Self-paced Learning**: Progress at your own speed through different modules
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🤝 Contributing
 
-**Use GitHub Codespaces**
+This project welcomes contributions! Here are several ways you can contribute:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Using Lovable Platform
+- Visit the [Lovable Project](https://lovable.dev/projects/320190e7-2904-49e5-9ba4-26890d6b0096)
+- Make changes through prompts
+- Changes are automatically committed
 
-## What technologies are used for this project?
+### Local Development
+- Clone the repository and make changes locally
+- Push changes to reflect them in Lovable
 
-This project is built with:
+### GitHub Integration
+- Edit files directly on GitHub
+- Use GitHub Codespaces for cloud-based development
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📦 Deployment
 
-## How can I deploy this project?
+### Quick Deployment
+1. Open [Lovable Project](https://lovable.dev/projects/320190e7-2904-49e5-9ba4-26890d6b0096)
+2. Click on **Share** → **Publish**
+3. Your application will be deployed instantly
 
-Simply open [Lovable](https://lovable.dev/projects/320190e7-2904-49e5-9ba4-26890d6b0096) and click on Share -> Publish.
+### Custom Domain
+To connect a custom domain:
+1. Navigate to **Project** → **Settings** → **Domains**
+2. Click **Connect Domain**
+3. Follow the setup instructions
 
-## Can I connect a custom domain to my Lovable project?
+For detailed instructions, visit: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
 
-Yes, you can!
+## 📚 Learning Path
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Recommended order for beginners:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. **Number Systems** - Foundation of computer number representation
+2. **Logic Gate Simulator** - Basic building blocks of digital circuits
+3. **CPU Components** - Understanding processor parts
+4. **ALU Operations** - Arithmetic and logic operations
+5. **Memory Organization** - How computers store data
+6. **Processor Architecture** - Complete processor design
+7. **Pipeline Visualizer** - Advanced processor concepts
+8. **Assembly Simulator** - Low-level programming
+9. **Bus Structure** - System interconnections
+10. **I/O Organization** - Input/output systems
+11. **Timing Control** - System synchronization
+12. **Computer Organization** - Overall system integration
+
+## 🐛 Issues & Support
+
+If you encounter any issues or have suggestions:
+- Open an issue on the GitHub repository
+- Use the Lovable platform for quick iterations
+- Check the documentation for common solutions
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 🙏 Acknowledgments
+
+- Built with modern web technologies for optimal performance
+- Designed with educational best practices in mind
+- Inspired by the need for interactive COA learning tools
+
+---
+
+**Happy Learning!** 🎉
+
+Explore the fascinating world of Computer Organization and Architecture through interactive simulations and discover how computers work at the fundamental level.
