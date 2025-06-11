@@ -387,19 +387,37 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="bg-gradient-to-r from-slate-800 to-slate-900 text-center p-6">
-          <div className="max-w-6xl mx-auto">
-            <p className="text-slate-300 font-medium">© 2025 DECODE CO-A Simulation</p>
-            <p className="mt-1 text-sm text-slate-400">Educational tool for computer organization concepts</p>
-            <div className="mt-3 flex flex-wrap justify-center gap-4">
-              <a href="#" className="text-sm text-blue-400 hover:text-blue-300 hover:underline transition-colors">About</a>
-              <a href="https://www.decodecoa.com" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-400 hover:text-blue-300 hover:underline transition-colors flex items-center gap-1">
-                DECODE CO-A <ExternalLink className="h-3 w-3" />
-              </a>
-              <a href="#" className="text-sm text-blue-400 hover:text-blue-300 hover:underline transition-colors">Privacy Policy</a>
-              <a href="#" className="text-sm text-blue-400 hover:text-blue-300 hover:underline transition-colors">Terms of Use</a>
-            </div>
-          </div>
-        </footer>
+  <div className="max-w-6xl mx-auto">
+    <p className="text-slate-300 font-medium">© 2025 DECODE CO-A Simulation</p>
+    <p className="mt-1 text-sm text-slate-400">Educational tool for computer organization concepts</p>
+    <p className="mt-1 text-sm text-slate-400">A Unit Of Decode CO-A</p>
+    <p className="mt-2 text-sm text-slate-400 flex items-center justify-center gap-1">
+      Created with love by Decode CO-A Team 
+      <span className="text-red-400 inline-block" style={{
+        animation: 'heartbeat 1.5s ease-in-out infinite'
+      }}>
+        ❤️
+      </span>
+    </p>
+    {/* <div className="mt-3 flex flex-wrap justify-center gap-4">
+      <a href="#" className="text-sm text-blue-400 hover:text-blue-300 hover:underline transition-colors">About</a>
+      <a href="https://www.decodecoa.com" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-400 hover:text-blue-300 hover:underline transition-colors flex items-center gap-1">
+        DECODE CO-A <ExternalLink className="h-3 w-3" />
+      </a>
+      <a href="#" className="text-sm text-blue-400 hover:text-blue-300 hover:underline transition-colors">Privacy Policy</a>
+      <a href="#" className="text-sm text-blue-400 hover:text-blue-300 hover:underline transition-colors">Terms of Use</a>
+    </div> */}
+  </div>
+  <style jsx>{`
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.1); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+  `}</style>
+</footer>
       </div>
       
       {/* Scroll to top button */}
