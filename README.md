@@ -61,37 +61,6 @@ The platform includes the following modules:
 - **Comprehensive Coverage**: All major COA topics in one platform
 - **Self-paced Learning**: Progress at your own speed through different modules
 
-## 🤝 Contributing
-
-This project welcomes contributions! Here are several ways you can contribute:
-
-### Using Lovable Platform
-- Visit the [Lovable Project](https://lovable.dev/projects/320190e7-2904-49e5-9ba4-26890d6b0096)
-- Make changes through prompts
-- Changes are automatically committed
-
-### Local Development
-- Clone the repository and make changes locally
-- Push changes to reflect them in Lovable
-
-### GitHub Integration
-- Edit files directly on GitHub
-- Use GitHub Codespaces for cloud-based development
-
-## 📦 Deployment
-
-### Quick Deployment
-1. Open [Lovable Project](https://lovable.dev/projects/320190e7-2904-49e5-9ba4-26890d6b0096)
-2. Click on **Share** → **Publish**
-3. Your application will be deployed instantly
-
-### Custom Domain
-To connect a custom domain:
-1. Navigate to **Project** → **Settings** → **Domains**
-2. Click **Connect Domain**
-3. Follow the setup instructions
-
-For detailed instructions, visit: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
 
 ## 📚 Learning Path
 
@@ -110,16 +79,7 @@ Recommended order for beginners:
 11. **Timing Control** - System synchronization
 12. **Computer Organization** - Overall system integration
 
-## 🐛 Issues & Support
 
-If you encounter any issues or have suggestions:
-- Open an issue on the GitHub repository
-- Use the Lovable platform for quick iterations
-- Check the documentation for common solutions
-
-## 📄 License
-
-This project is open source and available under the MIT License.
 
 ## 🙏 Acknowledgments
 
